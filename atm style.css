@@ -1,0 +1,92 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+h1 {
+    font-weight: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    
+}
+.card-container {    
+background: rgb(20, 20, 100);
+width: 50%;
+padding: 10px;
+border-radius: 20px;
+color: whitesmoke;
+display: flex;
+flex-direction: column;
+}
+.card-image{  
+background-image: url(STAN.L-c30b7cd0.png);
+background-size: 200px 300px;
+background-repeat: no-repeat;
+background-position: center;
+
+} 
+.name-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.bank-name {
+    font-size: 40px;
+}
+
+.logo {
+    display: flex;
+    height: 95px;
+    margin: 0px;   
+}
+
+.account-number {
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+letter-spacing: 10px;
+margin-top: 20px;
+
+}
+
+.chip-debit {
+width: 55px;
+height: 35px;
+background: rgb(121, 121, 5);
+margin-left: 70px! important;
+border-radius: 9px;
+border: 1px solid white;
+display: flex;
+flex-wrap: nowrap;
+
+}
+
+
+
+.network-image img {
+    height: 30px;
+}   
+
+.network-image {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    
+}
+
+.member-date {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name-visa {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
